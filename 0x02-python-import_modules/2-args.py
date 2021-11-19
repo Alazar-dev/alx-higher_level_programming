@@ -17,5 +17,5 @@ def print_arguments():
             print("{}: {}".format(i, sys.argv[i]))
 
 
-if __name__ == " __main__":
+if __name__ == "__main__":
     print_arguments()
