@@ -2,20 +2,20 @@
 import sys
 
 
-def printArguments():
+def print_arguments():
 
     length = len(sys.argv)
-    if (length == 1):
+    if length == 1:
         print("0 arguments.")
-    elif (length == 2):
-        print("{} argument".format(length - 1))
+    elif length == 2:
+        print("{} argument:".format(length - 1))
         print("{}: {}".format(1, sys.argv[1]))
 
     else:
-        print("{} argiments:".format(length - 1))
+        print("{} arguments:".format(length - 1))
         for i in range(1, length):
             print("{}: {}".format(i, sys.argv[i]))
 
 
 if __name__ == " __main__":
-    printArguments()
+    print_arguments()
