@@ -2,12 +2,12 @@
 import sys
 
 
-def print_arguments():
+def printArguments():
 
     length = len(sys.argv)
-    if length == 1:
+    if (length == 1):
         print("0 arguments.")
-    elif length == 2:
+    elif (length == 2):
         print("{} argument:".format(length - 1))
         print("{}: {}".format(1, sys.argv[1]))
 
@@ -18,4 +18,4 @@ def print_arguments():
 
 
 if __name__ == "__main__":
-    print_arguments()
+    printArguments()
