@@ -5,3 +5,6 @@ a = 1
 b = 2
 
 print("{:n} + {:n} = {:n}".format(a, b, add(a, b)))
+
+if __name__ == "__main__":
+    add(a, b)
