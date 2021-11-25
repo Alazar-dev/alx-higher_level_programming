@@ -8,7 +8,7 @@ def numberofarguments():
     if length == 1:
         print("0 arguments.")
     elif length == 2:
-        print("{} argument: ".format(length - 1))
+        print("{} argument:".format(length - 1))
         print("{}: {}".format(1, sys.argv[1]))
 
     else:
