@@ -3,6 +3,7 @@ import sys
 
 
 def number_of_arguments():
+
     length = len(sys.argv)
 
     if length == 1:
