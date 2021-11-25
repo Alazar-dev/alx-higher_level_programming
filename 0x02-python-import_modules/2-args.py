@@ -12,7 +12,7 @@ def numberofarguments():
         print("{}: {}".format(1, sys.argv[1]))
 
     else:
-        print("{} arguments: ".format(length - 1))
+        print("{} arguments:".format(length - 1))
         for i in range(1, length):
             print("{}: {}".format(i, sys.argv[i]))
 
