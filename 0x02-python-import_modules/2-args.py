@@ -2,7 +2,7 @@
 import sys
 
 
-def numberofarguments():
+def number_of_arguments():
 
     length = len(sys.argv)
     if length == 1:
@@ -18,4 +18,4 @@ def numberofarguments():
 
 
 if __name__ == "__main__":
-    numberofarguments()
+    number_of_arguments()
