@@ -1,8 +1,8 @@
 #!/usr/bin/python3
 from calculator_1 import add, sub, mul, div
 
-a = 5
-b = 10
+a = 10
+b = 5
 
 print("{:n} + {:n} = {:n}".format(a, b, add(a, b)))
 print("{:n} - {:n} = {:n}".format(a, b, sub(a, b)))
